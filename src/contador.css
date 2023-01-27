@@ -1,10 +1,10 @@
-body{
+body {
   counter-reset: game;
 }
-input:checked{
+input:checked {
   counter-increment: game;
 }
 
-.total-count::after{
+.total-count::after {
   content: counter(game);
 }
