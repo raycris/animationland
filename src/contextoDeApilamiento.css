@@ -110,5 +110,71 @@ body {
   background: white;
   bottom: 0;
   left: 0px;
-  border-bottom-left-radius: 30px;;
+  border-bottom-left-radius: 30px;
+}
+
+/* Dibujo */
+.left-ear--outer {
+  background: rgb(23, 23, 23);
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  left: 10px;
+}
+
+.left-ear--inner {
+  background: rgb(207, 203, 203);
+  border-radius: 90%;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+.right-ear--outer {
+  background: rgb(23, 23, 23);
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+}
+
+.right-ear--inner {
+  background: rgb(207, 203, 203);
+  border-radius: 90%;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.head {
+  background: rgb(23, 23, 23);
+  border-radius: 50%;
+  height: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+}
+
+.head__eye {
+  background: red;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 15px;
+}
+
+.head__eye--left {
+  left: 26px;
+}
+.head__eye--right {
+  right: 26px;
 }
