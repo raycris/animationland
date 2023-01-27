@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.phone {
+  position: relative;
+  height: 600px;
+  width: 300px;
+  border: 8px solid black;
+  border-radius: 40px;
+  background: var(--lightBlue);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.layer {
+  position: absolute;
+}
+.layer-1 {
+  z-index: 1;
+  height: 450px;
+  width: 80px;
+  background: white;
+  bottom: 0;
+  right: 60px;
+}
+.layer-2 {
+  z-index: 2;
+  height: 450px;
+  width: 80px;
+  background: white;
+  bottom: 0;
+  left: 60px;
+}
+.layer-3 {
+  z-index: 3;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 220px;
+  height: 400px;
+  bottom: 0;
+  background: brown;
+}
+.layer-4 {
+  z-index: 4;
+  height: 350px;
+  width: 80px;
+  background: white;
+  bottom: 0;
+  left: 20px;
+  border-bottom-left-radius: 30px;
+}
+.layer-5 {
+  z-index: 5;
+  left: -80px;
+  right: 0;
+  margin: 0 auto;
+  width: 220px;
+  height: 300px;
+  bottom: 0;
+  background: rgb(223, 83, 83);
+  border-bottom-left-radius: 30px;
+}
+.layer-6 {
+  z-index: 6;
+  height: 200px;
+  width: 80px;
+  background: white;
+  bottom: 0;
+  right: 30px;
+}
+.layer-7 {
+  z-index: 7;
+  left: 0;
+  right: -80px;
+  margin: 0 auto;
+  width: 220px;
+  height: 150px;
+  bottom: 0;
+  background: rgb(130, 63, 63);
+  border-bottom-right-radius: 30px;
+}
+.layer-8 {
+  z-index: 8;
+  height: 100px;
+  width: 250px;
+  background: rgb(14, 205, 30);
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.layer-9 {
+  z-index: 9;
+  height: 80px;
+  width: 80px;
+  background: white;
+  bottom: 0;
+  right: 0px;
+  border-bottom-right-radius: 30px;
+}
+.layer-10 {
+  z-index: 10;
+  height: 80px;
+  width: 80px;
+  background: white;
+  bottom: 0;
+  left: 0px;
+  border-bottom-left-radius: 30px;;
+}
