@@ -164,12 +164,34 @@ body {
 }
 
 .head__eye {
-  background: red;
+  /* background: red;
+  border-radius: 50%; */
+  background-image: url("../src/assets/image/charingan.jpg");
+  background-position: center;
   border-radius: 50%;
+  object-fit: cover;
   width: 4px;
-  height: 4px;
+  height: px;
   position: absolute;
   top: 15px;
+
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {
+    height: 4px;
+  }
+  5% {
+    transform: translateX(0px, 2px);
+    height: 1px;
+  }
+  10% {
+    transform: translateX(0px, 0px);
+    height: 4px;
+  }
 }
 
 .head__eye--left {
